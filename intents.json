@@ -1,0 +1,166 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "about_smart",
+      "patterns": [
+        "Tell me about SMART",
+        "What is SMART Technology Solutions?",
+        "Can you provide details about SMART?"
+      ],
+      "responses": [
+        "SMART Technology Solutions is a Saudi company started in 2007. We provide IT services and solutions, supporting businesses in their technical needs."
+      ]
+    },
+    {
+      "tag": "why_smart",
+      "patterns": [
+        "Why choose SMART?",
+        "What makes SMART unique?",
+        "Why should I use SMART's services?"
+      ],
+      "responses": [
+        "SMART is a one-stop IT service provider focusing on small and mid-sized enterprises, with over 15 years of experience serving public and private sectors."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does SMART provide?",
+        "Can you list SMART's main services?",
+        "What are SMART's business units?"
+      ],
+      "responses": [
+        "SMART provides IT solutions, EduIT services, software development, cloud services, IT projects, security solutions, business applications, and procurements."
+      ]
+    },
+    {
+      "tag": "it_solutions",
+      "patterns": [
+        "What IT solutions do you offer?",
+        "Can you explain your IT services?",
+        "Tell me about your IT solutions."
+      ],
+      "responses": [
+        "Our IT solutions include MSP, IT infrastructure, backup & disaster recovery, VPN, security, and help desk services, among others."
+      ]
+    },
+    {
+      "tag": "software_dev",
+      "patterns": [
+        "Do you provide software development?",
+        "Can SMART help with app development?",
+        "What software development services do you offer?"
+      ],
+      "responses": [
+        "SMART provides software development services including web and mobile app development, e-commerce solutions, UX/UI design, and workflow automation."
+      ]
+    },
+    {
+      "tag": "cloud_services",
+      "patterns": [
+        "Do you offer cloud services?",
+        "What are your cloud solutions?",
+        "Tell me about your cloud computing services."
+      ],
+      "responses": [
+        "SMART offers cloud computing with Microsoft Azure, AWS, Google Cloud, and more. We provide cloud storage, hosting, security monitoring, and integrations."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "What security services do you provide?",
+        "Can SMART help with cybersecurity?",
+        "Tell me about your security solutions."
+      ],
+      "responses": [
+        "SMART offers risk assessment, SOC as a service, endpoint detection, network threat detection, vulnerability management, and more."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact SMART?",
+        "What's SMART's phone number?",
+        "Where can I find SMART?"
+      ],
+      "responses": [
+        "You can contact SMART at +966 9200 24 779 or visit our website at www.smart.sa."
+      ]
+    }
+  ]
+}
